@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="开始"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/pauseBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="暂停"
+        android:enabled="false"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/stopBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="停止"
+        android:enabled="false"
+        android:layout_weight="1"/>
+
+</LinearLayout>

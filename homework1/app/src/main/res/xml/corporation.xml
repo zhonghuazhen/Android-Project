@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<corporations>
+    <corporation no="1">
+        <name>沃尔玛</name>
+        <country>美国</country>
+    </corporation>
+    <corporation no="2">
+        <name>壳牌</name>
+        <country>荷兰</country>
+    </corporation>
+    <corporation no="3">
+        <name>埃克森美孚</name>
+        <country>美国</country>
+    </corporation>
+    <corporation no="4">
+        <name>英国石油</name>
+        <country>英国</country>
+    </corporation>
+    <corporation no="5">
+        <name>中石油</name>
+        <country>中国</country>
+    </corporation>
+</corporations>

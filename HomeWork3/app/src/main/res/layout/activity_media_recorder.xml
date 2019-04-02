@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="录音"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/startBtn1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="开始"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/stopBtn1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="停止"
+            android:enabled="false"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="录像"
+        android:textSize="20sp"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/startBtn2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="开始"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/stopBtn2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="停止"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <SurfaceView
+        android:id="@+id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>
